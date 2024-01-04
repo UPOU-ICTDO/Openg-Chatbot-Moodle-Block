@@ -1,0 +1,36 @@
+<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Openg",
+      "botConversationDescription": "Your wise MOOCompanion!",
+      "botId": "a448bdd1-281a-470e-be84-2bed8ce08bdb",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "a448bdd1-281a-470e-be84-2bed8ce08bdb",
+      "botName": "Openg",
+      "avatarUrl": "https://ictdo.upou.edu.ph/wp-content/uploads/2023/08/Playground__2_-removebg-preview-e1692628533397.png",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/17aafd52-4d39-4d67-aeab-de3325af86c2/v59742/style.css",
+      "useSessionStorage": true
+  });
+</script>
+
+
+<div class="content-container">
+    <!-- Other content and images -->
+    <div class="openg-image" id="openg-image">
+        <img src="/theme/almondb/templates/images/OpengV2.png">
+    </div>
+</div>
+
+<script>
+    // Get a reference to the Openg image element
+    const opengImage = document.getElementById('openg-image');
+
+    // Function to hide the Openg image
+    function hideOpengImage() {
+        opengImage.style.display = 'none';
+    }
+
+    // Hide the Openg image after 10 seconds
+    setTimeout(hideOpengImage, 10000); // 10000 milliseconds = 10 seconds
+</script>
